@@ -1,0 +1,23 @@
+{
+  "name": "article",
+  "plural": "articles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "article": {
+      "type": "object",
+      "required": true
+    },
+    "favoritedToggled": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
